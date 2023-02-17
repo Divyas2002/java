@@ -1,0 +1,9 @@
+double area()
+{
+double a=4;
+double r=4;
+double sa=a*a;
+double ra=pi*r*r;
+double area=ra-sa;
+println(area);
+}
