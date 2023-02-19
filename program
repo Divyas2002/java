@@ -7,3 +7,623 @@ double ra=pi*r*r;
 double area=ra-sa;
 println(area);
 }
+
+DATA VARIABLE
+1.Using third variable/temp varible
+int x=5;
+int y=6;
+int temp;
+temp=x;
+x=y;
+y=temp;
+println(x);
+println(y);
+
+2.without third variable
+int x= 5;
+int y = 6;
+x=x+y;
+x=11
+y= x-y;
+y = 5
+x=x-y;
+println(x);
+Println(y);
+
+3.Simple interest
+double p  = 100000.00
+double n  = 2.50 ;
+double r  = 7.75;
+double si = ( p*n*r*)/100.0;
+Println (si);
+
+4.method simple interest
+double simint()
+{
+double p=100000.00;
+double n=2.50;
+double r=7.75;
+double si=(p*n*r)/100;
+println(si);
+return si;
+}
+
+5.method average
+double avg()
+{
+double average= ( 1.0,2.0)0.3)/3.0;
+Print(average);
+return average;
+}
+double sum ( double a, double b, double c)
+{
+double d=a+b+c ;
+return d;
+}
+
+arithmetic.java
+public class arithmetic
+{ 
+int a=5;
+int b=7;
+int add()
+{
+c=a+b;
+println(c);
+return c;
+int sub()
+{
+c=a-b;
+println(c);
+return c;
+}
+main method
+void main()
+{
+arithmetic call=new arithmetic();
+call.add();
+call.sub();
+}
+}
+
+double a()
+{
+double b=7,h=5;
+double area=0.5*b*h;
+return area;
+}
+double b()
+{
+double b=5,h=7;
+double area=0.5*b*h;
+return area;
+double a()
+{
+double d=a()>b()?a():b();
+println(d);
+return d;
+}
+
+How much is 40% of 420
+
+percent.java
+public class percent
+{
+int calculate()
+{
+int amount=420;
+int percent=40%;
+int ans=amount*(percent/100);
+println(ans);
+return ans;
+}
+void main()
+{
+percent obj=new percent();
+obj.calculate();
+}
+}
+
+syntax for method call
+objct name.method name
+
+36 is how much percentage in 78%?
+public class percentage
+{
+double cal()
+{
+double amount1=36;
+double amount2=78;
+double own=(amount1/amount2*100);
+return own;
+}
+void main()
+{
+percentage obj=new percentage();
+obj.cal();
+}
+
+Example:
+int height=;
+boolean do you know swimming=;
+if(do you know swimming==true)
+{
+if(height>=160) 
+{
+println("you are eligible");
+}
+else
+{
+println("you can go to kids pool");
+}
+}
+else
+println("go and learn swimming and come back");
+}
+
+EXAMBLE:
+int age =14;
+if(age<=2)
+{
+Println ("No ticket");
+}
+else
+{
+if(age<=11)
+{
+println("Half ticket");
+}
+else
+{
+println("Full ticket");
+}
+}
+
+
+EXAMBLE FOR MULTIPLE CONDITION
+boolean running= ;
+boolean written= ;
+boolean medical= ;
+if(running==ture&&written== ture&& medical==ture)
+{
+println("you are selected");
+}
+else
+double total Mark= ;
+double cut of Mark= ;
+if(total Mark>=960//cut of mark>=160)
+{
+println("you are eligible to apply for counciling");
+}
+
+SWITCH CASE (choice /selection based execution)
+int day= 5;
+Switch (day)
+{
+Case 1:
+println ("Monday");
+break;
+Case 2:
+println ("Tuesday");
+break;
+Case 3:
+println ("Wednesday");
+break;
+Case 4:
+println ("Thursday");
+break;
+Case 5:
+println ("Friday");
+break;
+Case 6:
+println ("Saturday");
+break;
+Case 7:
+println ("Sunday");
+break;
+}
+
+EXAMBLE:
+
+int a=5;
+int b=5;
+int c;
+Char symbol='*';
+Switch (symbol)
+{
+Case '+':
+C= a+b;
+println (c);
+break;
+Case (-):
+C=a-b;
+break;
+Case(*):
+C=a*b;
+break;
+Case (/):
+C= a/b;
+break;
+}
+
+How much is 40% of 420
+
+percent.java
+public class percent
+{
+int calculate()
+{
+int amount=420;
+int percent=40%;
+int ans=amount*(percent/100);
+println(ans);
+return ans;
+}
+void main()
+{
+percent obj=new percent();
+obj.calculate();
+}
+}
+
+syntax for method call
+objct name.method name
+
+36 is how much percentage in 78%?
+public class percentage
+{
+double cal()
+{
+double amount1=36;
+double amount2=78;
+double own=(amount1/amount2*100);
+return own;
+}
+void main()
+{
+percentage obj=new percentage();
+obj.cal();
+}
+
+Example:
+int height=;
+boolean do you know swimming=;
+if(do you know swimming==true)
+{
+if(height>=160) 
+{
+println("you are eligible");
+}
+else
+{
+println("you can go to kids pool");
+}
+}
+else
+println("go and learn swimming and come back");
+}
+
+EXAMBLE:
+int age =14;
+if(age<=2)
+{
+Println ("No ticket");
+}
+else
+{
+if(age<=11)
+{
+println("Half ticket");
+}
+else
+{
+println("Full ticket");
+}
+}
+
+
+EXAMBLE FOR MULTIPLE CONDITION
+boolean running= ;
+boolean written= ;
+boolean medical= ;
+if(running==ture&&written== ture&& medical==ture)
+{
+println("you are selected");
+}
+else
+double total Mark= ;
+double cut of Mark= ;
+if(total Mark>=960//cut of mark>=160)
+{
+println("you are eligible to apply for counciling");
+}
+
+SWITCH CASE (choice /selection based execution)
+int day= 5;
+Switch (day)
+{
+Case 1:
+println ("Monday");
+break;
+Case 2:
+println ("Tuesday");
+break;
+Case 3:
+println ("Wednesday");
+break;
+Case 4:
+println ("Thursday");
+break;
+Case 5:
+println ("Friday");
+break;
+Case 6:
+println ("Saturday");
+break;
+Case 7:
+println ("Sunday");
+break;
+}
+
+double si()
+{
+double p=500000.00;
+double n=1.50;
+double r=5.25;
+double si=p*n*r/100.00;
+println(si);
+return si;
+}
+
+break vs continue
+----- --- -------
+for(i=1;i<=10;i=i+1)
+{
+if(i==5)
+{
+break;
+}
+system.out.println(i);
+}
+
+for(inti=1;i<=100;i=i+1)
+{
+if(i==50)
+{
+break;}
+System.out.println(i);
+}
+
+A.java
+-------
+public class A
+{
+int a;
+int b;
+int c;
+int m()
+{
+//body
+}
+int c()
+{
+//body
+}
+}
+
+Constructor
+-----------
+A.java
+
+public class A
+{
+int x;
+int y;
+int z;
+int m1()
+{
+//body
+}
+int m2()
+{
+//body
+}
+public static void main()
+{
+//body
+}
+
+
+Employee.java
+-------------
+public class employee 
+{
+int empId;
+double empSalary;
+String empName;
+char empGrade; 
+Employee(int empId,double empSalary,String empName,char empGrade)
+{
+this.empId=empId;
+this.empSalary=empSalary;
+this.empName=empName;
+this.empGrade=empGrade;
+}
+Employee(int empId,String empName,char empGrade)
+{
+this.empId=empId;
+this.empName=empName;
+this.empGrade=empGrade;
+}
+void display()
+{
+System.out.println(empId+" "+empSalary+" "+empName+" "+empGrade);
+}
+public static void main(String args[])
+{
+Employee e1=new Employee(1,25000,"ram",'X');
+Employee e2=new Employee(2,"sam",'y');
+Employee e3=new Employee(3,40000,"zara",'z');
+e1.display();
+e2.display();
+e3.display();
+}
+}
+
+A.java
+------
+ Public Class A
+{
+int a= 5;
+Static double b=2.2;
+Void m();
+{
+.....
+.....
+}
+int n()
+{
+.....
+.....
+}
+Static double p()
+{
+....
+....
+}
+public static void main()
+{
+P();
+}
+
+
+SBI core Bank.java
+Public Class SBI core Bank
+{
+Static int debitTXcounter=0;
+Static int creditTXcounter=0;
+       int accountNumber;
+string customerName;
+double accountBalance;
+SBIcoreBank (int accountNumber, string customerName, double accountBalance)
+{
+this.accountNumber= accountNumber;
+this.customerName= customerName;
+this.accountBalance = accountBalance;
+}
+double credit(double amount)
+{
+System.out.println( accountNumber + ":" customerName);
+System.out.println("Before credit"+ accountBalance);
+accountBalance= accountBalance + amount;
+System.out.println("After credit"+ accountBalance);
+CreditTx2counter = creditTXcounter+1;
+return accountBalance;
+}
+double debit(double amount)
+{
+System.out.println( accountNumber + ":" customerName);
+System.out.println( "before debit " + accountBalance);
+accountBalance= accountBalance - amount;
+System.out.println( "after debit " + accountBalance);
+debitTXcounter = debitTXcounter+1;
+return accountBalance;
+}
+Public static void main (String arg[])
+{
+SBIcoreBank b1= new SBIcoreBank(123," Raj ",25000.0)
+SBIcoreBank b2 = new SBIcoreBank(345,"Tej",15500.0)
+SBIcoreBank b3 = new SBIcoreBank(567,"zara",47250.0)
+ 
+ b1.debit (5000.0)
+ b2.credit(500.0);
+ b3.credit(1000.0);
+ b1.credit(250.0);
+ b2.debit (7000.0);
+System.out.println(debitTXcounter);
+System.out.println(creditTXcounter);
+}
+}
+
+
+How to call/execute method
+   
+ X.Java
+--------
+ Public class x
+{
+Void m()
+{
+......
+......
+}
+Void n()
+{
+......
+......
+}
+public static void main()
+{
+m();
+y.p();
+X x= new x();
+x.n();
+Y y=new y();
+Y.i ();
+}
+}
+
+
+Y.java
+-------
+Public class Y
+{
+Static void p()
+{
+.....
+.....
+}
+Void i ()
+{
+.....
+.....
+}
+public static void main()
+{
+P();
+X.m();
+Y y= new Y();
+Y.i()
+X x= new X();
+x n();
+}
+}
+
+Flag logic                               
+                      
+boolean Flag= false;
+int num=7;
+for(int i= 2;i<=number/2;i=1+1)
+{
+if(number%i==0)
+{
+flag=true;
+}
+}
+println(flag);
+
+
+Counter logic
+
+int count=0;
+int num= 6;
+for (int i=2;i<number/2;i=i+1);
+{
+if(number%i==0)
+{
+Counter=Counter+1);
+}
+}
+println(counter);
+
+
